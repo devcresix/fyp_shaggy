@@ -34,6 +34,25 @@ int speed;
 int currentGear=0;
 int mode=1;
 
+#line 35 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+void setup();
+#line 48 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+void loop();
+#line 56 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+void print();
+#line 73 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+void controlClutch(int dir);
+#line 101 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+void gearChange();
+#line 288 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+void reverse();
+#line 296 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+void neutral();
+#line 318 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+int changeMode(int md);
+#line 322 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
+void spin(int motor,int steps);
+#line 35 "/Users/ireshmadhusankha/Projects/Programming/FYP/shaggy/sketch.ino"
 void setup()
 {
     pinMode(dirPinX, OUTPUT);
